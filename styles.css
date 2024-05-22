@@ -207,3 +207,16 @@ body {
   display: none;
   
 }
+
+@media (width < 640px) {
+  .links div:not(.menu_bar) {
+    display: none;
+  }
+  .menu_bar i{
+    display: block;
+  }
+
+  .content {
+    flex-direction: column;
+  };
+}
